@@ -8,7 +8,7 @@
 
 [project]
 site_name = "Docs" # CUSTOM: Set the name that appears in the browser tab.
-site_url = "https://matthewellishanson.github.io/ml-04-regression/"
+site_url = "https://matthewellishanson.github.io/ml-04-regression-hanson/"
 repo_url = "https://github.com/matthewellishanson/ml-04-regression-hanson"
 repo_name = "ml-04-regression-hanson"
 site_description = "Project Documentation" # CUSTOM: Set the description.
