@@ -198,3 +198,55 @@ dtype: int64
 2026-07-26 22:39:49 | DEBUG | M04 |   degree= 8  train RMSE=378.965  test RMSE=354.134
 2026-07-26 22:39:49 | DEBUG | M04 |   degree= 9  train RMSE=378.965  test RMSE=354.115
 2026-07-26 22:39:49 | DEBUG | M04 |   degree=10  train RMSE=378.964  test RMSE=354.177
+2026-07-26 23:05:51 | INFO | M04 | === RUN START ===
+2026-07-26 23:05:51 | INFO | M04 | project=M04
+2026-07-26 23:05:51 | INFO | M04 | repo_dir=ml-04-regression-hanson
+2026-07-26 23:05:51 | INFO | M04 | python=3.14.3
+2026-07-26 23:05:51 | INFO | M04 | os=Windows 11
+2026-07-26 23:05:51 | INFO | M04 | shell=powershell
+2026-07-26 23:05:51 | INFO | M04 | cwd=notebooks
+2026-07-26 23:05:51 | INFO | M04 | github_actions=False
+2026-07-26 23:05:51 | INFO | M04 | Confirming installation:
+2026-07-26 23:05:51 | INFO | M04 |   python:       3.14.3
+2026-07-26 23:05:51 | INFO | M04 |   pandas:       3.0.5
+2026-07-26 23:05:51 | INFO | M04 |   numpy:        2.5.1
+2026-07-26 23:05:51 | INFO | M04 |   scikit-learn: 1.9.0
+2026-07-26 23:05:51 | INFO | M04 |   seaborn:      0.13.2
+2026-07-26 23:05:51 | INFO | M04 |   matplotlib:   3.11.1
+2026-07-26 23:07:10 | INFO | M04 | Loading dataset: extreme_weather
+2026-07-26 23:07:10 | INFO | M04 | Loaded: 162 rows (instances), 26 columns
+2026-07-26 23:07:10 | INFO | M04 | Original rows: 162  Model rows: 162
+2026-07-26 23:09:42 | INFO | M04 | Train instances: 129
+2026-07-26 23:09:42 | INFO | M04 | Test instances: 33
+2026-07-26 23:13:50 | INFO | M04 | Fitting a linear regression (scikit-learn)
+2026-07-26 23:13:50 | INFO | M04 | Fitted line: total_affected = -25.4334 * total_deaths + 2.87511e+06
+2026-07-26 23:14:05 | INFO | M04 | Fit numbers on the TEST set (for you to interpret):
+2026-07-26 23:14:05 | INFO | M04 |   R-squared: -0.0098
+2026-07-26 23:14:05 | INFO | M04 |   RMSE:      8.93114e+06  (in units of Total affected)
+2026-07-26 23:14:40 | INFO | M04 | Loading dataset: extreme_weather
+2026-07-26 23:14:40 | INFO | M04 | Loaded: 162 rows (instances), 26 columns
+2026-07-26 23:14:40 | INFO | M04 | Original rows: 162  Model rows: 162
+2026-07-26 23:14:41 | INFO | M04 | Train instances: 129
+2026-07-26 23:14:41 | INFO | M04 | Test instances: 33
+2026-07-26 23:14:42 | INFO | M04 | Fitting a linear regression (scikit-learn)
+2026-07-26 23:14:42 | INFO | M04 | Fitted line: total_affected = 18035.8 * duration_days + 1.63841e+06
+2026-07-26 23:14:43 | INFO | M04 | Fit numbers on the TEST set (for you to interpret):
+2026-07-26 23:14:43 | INFO | M04 |   R-squared: 0.2836
+2026-07-26 23:14:43 | INFO | M04 |   RMSE:      7.52256e+06  (in units of Total affected)
+2026-07-26 23:15:05 | DEBUG | M04 |   degree= 1  train RMSE=6.82983e+06  test RMSE=7.52256e+06
+2026-07-26 23:15:05 | DEBUG | M04 |   degree= 2  train RMSE=6.57807e+06  test RMSE=8.8407e+06
+2026-07-26 23:15:05 | DEBUG | M04 |   degree= 3  train RMSE=6.57431e+06  test RMSE=8.83122e+06
+2026-07-26 23:15:05 | DEBUG | M04 |   degree= 4  train RMSE=6.47903e+06  test RMSE=8.8183e+06
+2026-07-26 23:15:05 | DEBUG | M04 |   degree= 5  train RMSE=6.46753e+06  test RMSE=8.5698e+06
+2026-07-26 23:15:05 | DEBUG | M04 |   degree= 6  train RMSE=6.44631e+06  test RMSE=6.79212e+06
+2026-07-26 23:15:05 | DEBUG | M04 |   degree= 7  train RMSE=6.40156e+06  test RMSE=3.03894e+07
+2026-07-26 23:15:05 | DEBUG | M04 |   degree= 8  train RMSE=6.39571e+06  test RMSE=1.10321e+08
+2026-07-26 23:15:05 | DEBUG | M04 |   degree= 9  train RMSE=6.38747e+06  test RMSE=6.63863e+08
+2026-07-26 23:15:05 | DEBUG | M04 |   degree=10  train RMSE=6.38253e+06  test RMSE=3.63081e+09
+2026-07-26 23:15:33 | INFO | M04 | ========================
+2026-07-26 23:15:33 | INFO | M04 | SUMMARY
+2026-07-26 23:15:33 | INFO | M04 | ========================
+2026-07-26 23:15:33 | INFO | M04 | Dataset:  extreme_weather
+2026-07-26 23:15:33 | INFO | M04 | Feature:  duration_days  ->  Target: total_affected  (regression)
+2026-07-26 23:15:33 | INFO | M04 | Line:     total_affected = 18035.8 * duration_days + 1.63841e+06
+2026-07-26 23:15:33 | INFO | M04 | ========================
